@@ -9,7 +9,8 @@ div {
   animation-name: moving;
   animation-duration: 5s;
   animation-fill-mode: both;
-  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
 }
 
 @keyframes moving {
